@@ -46,6 +46,30 @@ ul{
     list-style-type: none;
 }
 
+h1{
+    font-family: var(--Lexend);
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    font-family: var(--Abel);
+    font-size: 1.3rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+
+
 /*-------------------Global Classes--------------------*/
 
 
@@ -59,6 +83,7 @@ ul{
     height: 0rem;
     min-height: 10vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 
@@ -87,7 +112,7 @@ ul{
 }
 
 .collapse{
-    height: 20rem;
+    height: 30rem;
 }
 
 
@@ -135,6 +160,43 @@ ul{
 
 /*-------------------navbar---------x-----------*/
 
+/*----------------Main Content------------------*/
+
+/*-------------Site Title-----------------*/
+
+.site-title{
+    background: url('../assests/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+.site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.site-title h1, h3{
+    margin: .3rem;
+}
+
+.btn{
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+.btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+/*------x-------Site Title-------x----------*/
+
+
+/*--------x-------Main Content-----x------------*/
 
 /*----Viewport less than or equal to 750px----*/
 
@@ -147,7 +209,5 @@ ul{
         display: initial;
     }
 }
-
-
 
 /*---x----Viewport less than or equal to 750px----x----*/
