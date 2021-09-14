@@ -69,6 +69,10 @@ button.btn{
     cursor: pointer;
 }
 
+span{
+    font-family: var(--Abel);
+}
+
 
 /*-------------------Global Classes--------------------*/
 
@@ -194,6 +198,44 @@ button.btn{
 }
 
 /*------x-------Site Title-------x----------*/
+
+/*---------------Blog Carousel------------------*/
+.blog{
+    background: url('../assests/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+.blog-post{
+    padding-top: 6rem;
+}
+
+.blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0,0,0,0);
+}
+
+.blo-title{
+    padding: 2rem 0;
+}
+
+btn-blog{
+    padding: .7rem 2rem;
+    background: var(--sky);
+    margin: .5rem;
+}
+
+.blog-content span{
+    display: block;
+}
+/*-------x--------Blog Carousel-----------x-------*/
+
 
 
 /*--------x-------Main Content-----x------------*/
