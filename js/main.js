@@ -14,7 +14,14 @@ $(document).ready(function(){
 
 
     //owl-carousel for blog
-    $('.owl-carousel').owlCarousel();
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeot: 3000,
+        nav: true,
+        dots: false,
+        navText : [$('.owl-nav-prev'), $('.owl-nav-next')]
+    });
 
 
 
