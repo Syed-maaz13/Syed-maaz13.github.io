@@ -291,6 +291,7 @@ section .owl-nav{
 }
 
 .img{
+    width: 100%;
 transition: all 1s ease;
 }
 
@@ -311,6 +312,25 @@ transition: all 1s ease;
     border-radius: 0;
     padding: .7rem 1.5rem;
     background: var(--sky);
+}
+
+.pagination{
+    justify-content: center;
+    color: var(--text-gray);
+    margin: 4rem 0;
+}
+
+.pagination a{
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: 0 .3rem;
+    font-family: var(--Lexend);
+
+}
+
+.pages{
+    background: var(--text-gray);
+    color: var(--white);
 }
 /*-----x--------Site Content----------------x-------------*/
 
