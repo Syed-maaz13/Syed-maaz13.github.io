@@ -394,6 +394,37 @@ transition: all 1s ease;
     font-size: 1rem;
 }
 
+.newsletter{
+    padding-top: 3rem;
+}
+
+.form-element{
+    padding: .5rem 2rem;
+}
+
+.input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: var(--Lexend);
+    font-size: 1rem;
+}
+
+.form-btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+.form-btn{
+    border-radius: 0;
+    padding: .8rem 33%;
+    margin: 1rem 0;
+    background: var(--sky);
+}
+
 /*------x------------Sidebar----------x-------*/
 
 
