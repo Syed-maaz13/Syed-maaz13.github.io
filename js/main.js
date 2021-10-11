@@ -1,4 +1,18 @@
 
+const responsive = {
+    0: {
+        items: 1
+    },
+    320: {
+        items: 1
+    },
+    560: {
+        items: 2
+    },
+    960: {
+        items: 3
+    }
+}
 
 $(document).ready(function(){
 
@@ -20,7 +34,8 @@ $(document).ready(function(){
         autoplayTimeot: 3000,
         nav: true,
         dots: false,
-        navText : [$('.owl-nav-prev'), $('.owl-nav-next')]
+        navText : [$('.owl-nav-prev'), $('.owl-nav-next')],
+        responsive: responsive
     });
 
     //click to scroll to top
@@ -31,6 +46,8 @@ $(document).ready(function(){
     })
 
 
+    //AOS Instance
+    AOS.init();
 
 });
 
